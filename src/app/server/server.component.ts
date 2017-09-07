@@ -6,22 +6,12 @@ import { Component } from '@angular/core';
 })
 export class ServerComponent{
   constructor(){
-    document.querySelector
-    setTimeout( ()=>{
-      this.buttonStatus = false;
-    }, 3000);
+
   }
 
-  serverId = 101;
-  serverStatus = 'offline';
-  buttonStatus = true;
-  clickTest = 'this text will change on button click';
+  buttonDisabled = true;
+  username = '';
 
+  
 
-  getServerLocation(){
-    return 'Moscow';
-  }
-  changeText(){
-    this.clickTest = 'text changed successfully';
-  }
 }

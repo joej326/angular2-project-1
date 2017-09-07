@@ -1,7 +1,7 @@
-<h1>Server {{ serverId }} is: {{ serverStatus }} and it is in {{ getServerLocation() }}</h1>
+<input
+(change)='checkUsername()'
+[(ngModel)]='username' type="text">
+<button [disabled]="username === ''">click me</button>
 
-<button
-(click)='changeText()'
-[disabled]='buttonStatus'>push me</button>
-
-<p [innerText]='clickTest'></p>
+<h1>{{ username }}</h1>
+<h3>check if username is not null</h3>
