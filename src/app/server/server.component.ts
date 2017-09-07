@@ -15,9 +15,13 @@ export class ServerComponent{
   serverId = 101;
   serverStatus = 'offline';
   buttonStatus = true;
+  clickTest = 'this text will change on button click';
 
 
   getServerLocation(){
     return 'Moscow';
+  }
+  changeText(){
+    this.clickTest = 'text changed successfully';
   }
 }

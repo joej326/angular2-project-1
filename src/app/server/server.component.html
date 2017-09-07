@@ -1,5 +1,7 @@
 <h1>Server {{ serverId }} is: {{ serverStatus }} and it is in {{ getServerLocation() }}</h1>
 
-<button [disabled]='buttonStatus'>push me</button>
+<button
+(click)='changeText()'
+[disabled]='buttonStatus'>push me</button>
 
-<p>{{ buttonStatus }}</p>
+<p [innerText]='clickTest'></p>
