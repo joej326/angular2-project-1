@@ -11,7 +11,8 @@ export class ServerComponent{
 
   buttonDisabled = true;
   username = '';
+  myLittleVar = '';
 
-  
+
 
 }
