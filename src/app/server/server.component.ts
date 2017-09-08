@@ -9,11 +9,13 @@ export class ServerComponent{
 
   }
 
-  buttonDisabled = true;
-  username = 'joe';
-  myLittleVar = '';
+  buttonStatus = false;
 
-  
+  buttonClicked(){
+    this.buttonStatus = true;
+  }
+
+
 
 
 
