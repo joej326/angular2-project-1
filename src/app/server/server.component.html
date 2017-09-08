@@ -2,5 +2,7 @@
 (change)='checkUsername()'
 [(ngModel)]='username' type="text">
 <button [disabled]="username === ''">click me</button>
- 
+
 <h1>{{ username }}</h1>
+
+<h1 [innerText]='methodTest()'></h1>
