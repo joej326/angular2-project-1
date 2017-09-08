@@ -13,6 +13,8 @@ export class ServerComponent{
   username = 'joe';
   myLittleVar = '';
 
+  
+
 
 
 }
