@@ -10,17 +10,8 @@ export class ServerComponent{
   }
 
   buttonStatus = false;
+  testArray = ['Joseph','Bruce','David'];
 
-  getRandomColor(){
-    let colorArray = ['red','blue','green','orange','purple','yellow'];
-    let randomIndex = Math.floor(Math.random() * 5);
-    console.log(randomIndex);
-
-    let theColor = colorArray.splice(randomIndex,1);
-
-    return {color: theColor}
-
-  }
 
 
 

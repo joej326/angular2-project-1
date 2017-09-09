@@ -9,4 +9,6 @@
 
 <input [(ngModel)]='joe' type="text">
 
-<h1 [ngStyle]='getRandomColor()'>heyyyyyy</h1>
+
+
+<h1 *ngFor='let name of testArray'>{{ name }}</h1>
