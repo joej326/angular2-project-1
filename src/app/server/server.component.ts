@@ -11,10 +11,16 @@ export class ServerComponent{
 
   buttonStatus = false;
 
-  buttonClicked(){
-    this.buttonStatus = true;
-  }
+  getRandomColor(){
+    let colorArray = ['red','blue','green','orange','purple','yellow'];
+    let randomIndex = Math.floor(Math.random() * 5);
+    console.log(randomIndex);
 
+    let theColor = colorArray.splice(randomIndex,1);
+
+    return {color: theColor}
+
+  }
 
 
 
