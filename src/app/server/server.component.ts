@@ -10,7 +10,7 @@ export class ServerComponent{
   }
 
   buttonStatus = false;
-  testArray = ['Joseph','Bruce','David'];
+
 
 
 
