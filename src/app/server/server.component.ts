@@ -10,8 +10,7 @@ export class ServerComponent{
   }
 
   buttonStatus = false;
-
-
+  helloThere = 'joe';
 
 
 
