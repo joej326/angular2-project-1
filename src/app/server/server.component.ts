@@ -9,9 +9,12 @@ export class ServerComponent{
 
   }
 
-  buttonStatus = false;
-  helloThere = 'joe';
+  serverId: number = 10;
+  name: string = 'here is the string';
 
+  getString(){
+    return this.name;
+  }
 
 
 
