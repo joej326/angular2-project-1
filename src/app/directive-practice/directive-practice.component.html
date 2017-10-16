@@ -3,3 +3,11 @@
 <h3 [ngStyle]="{background: status}">style test</h3>
 
 <h3 [ngClass]="testClass()">class test!</h3>
+
+<h6 *ngFor="let person of ngForArray">{{ person }}</h6>
+
+<!-- ngFor with index implementation (word index is a reserved variable) -->
+in the ngStyle below, if the index of the array is equal to 3, that item will have a purple background
+<h2
+*ngFor="let item of ngForArray; let i = index"
+ [ngStyle]="{background: i === 3 ? 'purple' : 'red'}">{{ item }}</h2>

@@ -10,6 +10,7 @@ export class DirectivePracticeComponent implements OnInit {
   myBoolean: boolean = false;
   status: string = 'red';
   classTest: string = 'hey';
+  ngForArray = ["Drake","Josh","Ned","Joseph","Grace"];
 
   constructor(){
     setTimeout(()=>{
