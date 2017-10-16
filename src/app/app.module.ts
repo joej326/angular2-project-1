@@ -8,6 +8,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { StringInterpolationComponent } from './string-interpolation/string-interpolation.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { DirectivePracticeComponent } from './directive-practice/directive-practice.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     StringInterpolationComponent,
     EventBindingComponent,
     EventBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    DirectivePracticeComponent
   ],
   imports: [
     BrowserModule,
