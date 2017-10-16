@@ -1,0 +1,10 @@
+<!-- for event binding, you will often call a method -->
+<h1 (click)="testEvent()">This is an event</h1>
+
+<!-- the "$event" is simply the event that occurred (e.g. mouse click/keyboard press) -->
+<input
+ type="text"
+ (input)="updatePerson($event)"
+ [(ngModel)]="personName"> 
+
+ <h2>{{personName}}</h2>
