@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { Example } from '../model/example.model';
 
@@ -8,15 +8,15 @@ import { Example } from '../model/example.model';
   styleUrls: ['./model-tester.component.css']
 })
 export class ModelTesterComponent implements OnInit {
-
-  joseph = new Example("Joseph",20,"wonderful");
+  //Input allows this variable to be accessible globally
+  @Input() joseph = new Example("Joseph",20,"wonderful");
   josephArray = [];
 
   constructor() {
     for(let key in this.joseph){
       this.josephArray.push(this.joseph[key]);
     }
-    
+
   }
 
   ngOnInit() {
