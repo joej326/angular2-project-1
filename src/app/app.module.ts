@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import { StringInterpolationComponent } from './string-interpolation/string-interpolation.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { DirectivePracticeComponent } from './directive-practice/directive-practice.component';
+import { ModelTesterComponent } from './model-tester/model-tester.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DirectivePracticeComponent } from './directive-practice/directive-pract
     EventBindingComponent,
     EventBindingComponent,
     EventBindingComponent,
-    DirectivePracticeComponent
+    DirectivePracticeComponent,
+    ModelTesterComponent
   ],
   imports: [
     BrowserModule,
