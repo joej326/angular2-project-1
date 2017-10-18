@@ -15,6 +15,9 @@ import { OutputTesterChildComponent } from './output-tester-parent/output-tester
 import { ReferenceExampleComponent } from './reference-example/reference-example.component';
 import { NgContentParentComponent } from './ng-content-parent/ng-content-parent.component';
 import { NgContentChildComponent } from './ng-content-parent/ng-content-child/ng-content-child.component';
+import { LifecyclesComponent } from './lifecycles/lifecycles.component';
+
+
 
 
 
@@ -35,7 +38,8 @@ import { NgContentChildComponent } from './ng-content-parent/ng-content-child/ng
     OutputTesterChildComponent,
     ReferenceExampleComponent,
     NgContentParentComponent,
-    NgContentChildComponent
+    NgContentChildComponent,
+    LifecyclesComponent
   ],
   imports: [
     BrowserModule,
