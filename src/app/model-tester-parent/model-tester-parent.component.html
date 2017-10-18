@@ -1,0 +1,8 @@
+
+<!-- this is using 'Input'. I bind to the 'tryIt' custom property which is in the child ts file.
+I then bind it to the 'name' variable which is in this parent component's ts file.
+This works similarly to props in React. -->
+
+<!-- this parent component is able to see 'tryIt' which is in the child component because
+of the 'Input' that we used in the child -->
+<app-model-tester [tryIt]='name'></app-model-tester>
