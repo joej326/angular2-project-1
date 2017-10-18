@@ -13,6 +13,8 @@ import { ModelTesterComponent } from './model-tester/model-tester.component';
 import { OutputTesterParentComponent } from './output-tester-parent/output-tester-parent.component';
 import { OutputTesterChildComponent } from './output-tester-parent/output-tester-child/output-tester-child.component';
 import { ReferenceExampleComponent } from './reference-example/reference-example.component';
+import { NgContentParentComponent } from './ng-content-parent/ng-content-parent.component';
+import { NgContentChildComponent } from './ng-content-parent/ng-content-child/ng-content-child.component';
 
 
 
@@ -31,7 +33,9 @@ import { ReferenceExampleComponent } from './reference-example/reference-example
     ModelTesterComponent,
     OutputTesterParentComponent,
     OutputTesterChildComponent,
-    ReferenceExampleComponent
+    ReferenceExampleComponent,
+    NgContentParentComponent,
+    NgContentChildComponent
   ],
   imports: [
     BrowserModule,
