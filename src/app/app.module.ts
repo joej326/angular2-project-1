@@ -10,6 +10,13 @@ import { StringInterpolationComponent } from './string-interpolation/string-inte
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { DirectivePracticeComponent } from './directive-practice/directive-practice.component';
 import { ModelTesterComponent } from './model-tester/model-tester.component';
+import { OutputTesterParentComponent } from './output-tester-parent/output-tester-parent.component';
+import { OutputTesterChildComponent } from './output-tester-parent/output-tester-child/output-tester-child.component';
+import { ReferenceExampleComponent } from './reference-example/reference-example.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -21,7 +28,10 @@ import { ModelTesterComponent } from './model-tester/model-tester.component';
     EventBindingComponent,
     EventBindingComponent,
     DirectivePracticeComponent,
-    ModelTesterComponent
+    ModelTesterComponent,
+    OutputTesterParentComponent,
+    OutputTesterChildComponent,
+    ReferenceExampleComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,10 @@ import { Example } from '../model/example.model';
 })
 export class ModelTesterComponent implements OnInit {
   //Input allows this variable to be accessible globally
-  @Input() joseph = new Example("Joseph",20,"wonderful");
+
+  //Input contains an optional argument of an alias. The alias is The
+  //name of the variable to components OUTSIDE of this component
+  @Input("michael") joseph = new Example("Joseph",20,"wonderful");
   josephArray = [];
 
   constructor() {

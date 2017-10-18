@@ -1,0 +1,17 @@
+
+
+<!-- //references are used to "tag" any HTML elements
+// the tagged element can then be used anywhere in THIS template -->
+<h3 #myReference class="one-class-to-rule-them-all">here's some text for you</h3>
+
+<!-- this reference is accessible by the ts file via passing in a method -->
+<button (click)="onClick(myReference)">click me</button>
+
+<!-- this h4 element is to test the ViewChild is the ts file -->
+
+<!-- this reference is accessible by the ts file via @ViewChild -->
+<h4 #viewChildReference></h4>
+
+
+
+<button (click)="referenceTestMethod()">click me</button>
