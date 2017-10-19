@@ -11,7 +11,9 @@ export class OutputTesterChildComponent implements OnInit {
   //@Output makes the event available to the parent
   @Output() outputTest = new EventEmitter();
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit() {
   }
@@ -22,5 +24,4 @@ export class OutputTesterChildComponent implements OnInit {
     console.log("button was clicked!");
     this.outputTest.emit("the output was successfull!!!!!");
   }
-
 }

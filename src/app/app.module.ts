@@ -17,6 +17,10 @@ import { NgContentParentComponent } from './ng-content-parent/ng-content-parent.
 import { NgContentChildComponent } from './ng-content-parent/ng-content-child/ng-content-child.component';
 import { LifecyclesComponent } from './lifecycles/lifecycles.component';
 import { ModelTesterComponent } from './model-tester-parent/model-tester-child/model-tester.component';
+import { NgforPracticeComponent } from './ngfor-practice/ngfor-practice.component';
+import { HighlightDirectiveComponent } from './highlight-directive/highlight-directive.component';
+import { BasicHighlightDirective } from './highlight-directive/basic-highlight-directive';
+import { BetterDirectiveDirective } from './better-directive.directive';
 
 
 
@@ -41,7 +45,11 @@ import { ModelTesterComponent } from './model-tester-parent/model-tester-child/m
     NgContentParentComponent,
     NgContentChildComponent,
     LifecyclesComponent,
-    ModelTesterParentComponent
+    ModelTesterParentComponent,
+    NgforPracticeComponent,
+    HighlightDirectiveComponent,
+    BasicHighlightDirective,
+    BetterDirectiveDirective
   ],
   imports: [
     BrowserModule,
