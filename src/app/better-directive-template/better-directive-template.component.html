@@ -1,0 +1,8 @@
+
+
+<!-- the property-bound 'hoveredBackground' is in the directive and we can change it to whatever we please.
+
+we can take out the property-binding here and it will still run because the hoveredBackground is already
+defined inside the directive.
+Basically, this enables someone to easily change the functionality of the app easily -->
+<h1 appBetterDirective [hoveredBackground]="'yellow'">hello</h1>

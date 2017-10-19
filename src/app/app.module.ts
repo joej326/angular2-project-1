@@ -21,6 +21,8 @@ import { NgforPracticeComponent } from './ngfor-practice/ngfor-practice.componen
 import { HighlightDirectiveComponent } from './highlight-directive/highlight-directive.component';
 import { BasicHighlightDirective } from './highlight-directive/basic-highlight-directive';
 import { BetterDirectiveDirective } from './better-directive.directive';
+import { BetterDirectiveTemplateComponent } from './better-directive-template/better-directive-template.component';
+import { SwitchComponent } from './switch/switch.component';
 
 
 
@@ -49,7 +51,9 @@ import { BetterDirectiveDirective } from './better-directive.directive';
     NgforPracticeComponent,
     HighlightDirectiveComponent,
     BasicHighlightDirective,
-    BetterDirectiveDirective
+    BetterDirectiveDirective,
+    BetterDirectiveTemplateComponent,
+    SwitchComponent
   ],
   imports: [
     BrowserModule,
